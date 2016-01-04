@@ -20,6 +20,12 @@ void printStats()
 
 int main()
 {
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello, World!\n" << std::endl;
+    int arr[5] = {1, 2, 3, 4, 5};
+    int* arrPtr = arr;
+    std::cout << arrPtr << std::endl;
+    std::cout << *arrPtr << std::endl;
+    arrPtr++;
+    std::cout << *arrPtr << std::endl;
     return 0;
 }
