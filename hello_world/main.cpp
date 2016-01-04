@@ -27,5 +27,6 @@ int main()
     std::cout << *arrPtr << std::endl;
     arrPtr++;
     std::cout << *arrPtr << std::endl;
+    // hello
     return 0;
 }
